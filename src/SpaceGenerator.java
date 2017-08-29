@@ -14,7 +14,7 @@ import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
 
 /**
- * Generator of space with tweets from the NASA Twitter account hourly.
+ * Bot generates space periodically by processing tweets from NASA.
  * @author Jenny Ha
  *
  */
