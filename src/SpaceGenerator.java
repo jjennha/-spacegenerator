@@ -22,10 +22,10 @@ public class SpaceGenerator{
 	private Twitter twitter;
 	public SpaceGenerator() {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
-		cb.setDebugEnabled(true).setOAuthConsumerKey("n0Mal8t2KJWiFKWld4AtDjdd2")
-				.setOAuthConsumerSecret("r2wJfgL8YDy6kFFqkMVuO0UaRX81UPSkKKAlHXzg28JzOA9xPU")
-				.setOAuthAccessToken("841699158989905922-kvDL07g8G0oqDC6aFHOID2blUrIoyqE")
-				.setOAuthAccessTokenSecret("zrvCWpdxgvlnJRkeVCbqokAz38K2UAVfxaN3aLRDEX2ly");
+		cb.setDebugEnabled(true).setOAuthConsumerKey("####")
+				.setOAuthConsumerSecret("####")
+				.setOAuthAccessToken("####")
+				.setOAuthAccessTokenSecret("####");
 		TwitterFactory tf = new TwitterFactory(cb.build());
 		twitter = tf.getInstance();		
 	}
@@ -76,7 +76,7 @@ public class SpaceGenerator{
 		while (true) {
 			SpaceGenerator bot = new SpaceGenerator();
 			bot.getUserTweets();
-			System.out.println("Going to sleep.");
+			
 			Thread.sleep(60*180*1000);
 		}
 	}
