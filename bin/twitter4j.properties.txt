@@ -1,4 +1,0 @@
-oauth.consumerKey=J3YyZ6QCz9LFlHdPFvAVInVTV
-oauth.consumerSecret=GpHvguVrSQRtNPbA1xJrCfOE5OHmLWIIaBYpFdBT8OH1iX87l1
-oauth.accessToken=841699158989905922-HjSLR6MQTlh3isK4S5UgRkR8LuJhRqS
-oauth.accessTokenSecret=gAde58MsNzX9r6ruppdIrrHygd0kQ46HMzdC09uio4Cox
